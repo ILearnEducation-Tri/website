@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css'
 
-const navLinks = document.querySelectorAll('#navbarNav .nav-link');
-const navbarToggler = document.querySelector('.navbar-toggler'); 
-const navbarCollapse = document.querySelector('#navbarNav'); 
-    
 
 
 export const Navbar = () => {

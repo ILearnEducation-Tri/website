@@ -58,8 +58,8 @@ function Whyus() {
     </section>
     <section class="why-choose-us">
         <div class="cartoon_container">
-            <img class="cartoon" src="/assets/images/cartoon.png" alt="Cartoon Image"/>
-            <img class="Cartoon_text" src="/assets/images/cartoon_text.png" alt="cartoon text Image"/>
+            <img class="cartoon" src="/assets/images/cartoon.png" alt="Cartoon"/>
+            <img class="Cartoon_text" src="/assets/images/cartoon_text.png" alt="cartoon text"/>
         </div>
     </section>
     </div>

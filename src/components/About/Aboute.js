@@ -33,7 +33,7 @@ function Aboute() {
                     </ul>
                 </div>
                 <div class="col-lg-6 about-image">
-                    <img src="/assets/images/about_us.png" alt="About Us Image"/>
+                    <img src="/assets/images/about_us.png" alt="About Us"/>
                 </div>
             </div>
         </div>

@@ -39,7 +39,7 @@ function Courses() {
                                 <div class="bg-white py-5 px-4 text-center box-shadow transition hover-bg-dark feature-box">
                                     <div class="icon-bg water-wave">
                                         <div class="background-animation"></div>
-                                        <img src="./logo192.png" alt="Icon" class="icon" style={{backgroundSize : "cover", width: "90%"}} />
+                                        <img src="./logo192.png" alt="Icon" class="icon" style={{backgroundSize : "cover", width: "90%"}}/>
                                     </div>
                                     <h4 class="mb-4 oneway">{card.shortForm}</h4>
                                     <p>{card.title}</p>

@@ -32,7 +32,7 @@ function MDDA() {
                         </ul>
                     </div>
                     <div class="col-lg-6 mdda-image">
-                        <img src="/assets/images/mdda_about.png" alt="Elephent cartoon Image"/>
+                        <img src="/assets/images/mdda_about.png" alt="Elephent cartoon"/>
                     </div>
                 </div>
             </div>
