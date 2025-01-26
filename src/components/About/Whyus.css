@@ -1,0 +1,92 @@
+/* Parent container for the icon and animated background */
+.water-wave {
+    position: relative;
+    width: 80px; /* Set desired container size */
+    height: 80px;
+    display: flex;
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Static icon */
+  .water-wave .icon {
+    font-size: 40px; /* Adjust icon size */
+    color: #007bff; /* Icon color */
+    position: relative; /* Ensures the icon stays fixed */
+    z-index: 2; /* Keep it above the animation */
+  }
+  
+  /* Background animation container */
+  .water-wave .background-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full size of the parent */
+    height: 100%;
+    border-radius: 50%; /* Circular background */
+    background-color: rgba(0, 0, 255, 0.1); /* Subtle background color */
+    animation: water-wave 4s ease-in-out infinite; /* Apply the wave effect */
+    z-index: 1; /* Keep it behind the icon */
+  }
+  
+  /* Keyframes for the wave effect */
+  @keyframes water-wave {
+    0% {
+      transform: scale(1);
+      border-radius: 120px 135px 110px 90px;
+    }
+    25% {
+      transform: scale(1.1);
+      border-radius: 130px 140px 100px 110px;
+    }
+    50% {
+      transform: scale(1.2);
+      border-radius: 110px 97px 150px 100px;
+    }
+    75% {
+      transform: scale(1.1);
+      border-radius: 80px 107px 120px 90px;
+    }
+    100% {
+      transform: scale(1);
+      border-radius: 120px 135px 110px 90px;
+    }
+  }
+  
+  .whyus_content {
+    padding: 0px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+  }
+  .cartoon_container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    padding-right: calc(var(--bs-gutter-x)* 0.5);
+    padding-left: calc(var(--bs-gutter-x)* 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cartoon {
+    height: 600px;
+    z-index: 2;
+  }
+  .Cartoon_text {
+    box-sizing: border-box;
+    position: absolute;
+    right: -100%;
+    z-index: 1;
+    animation: text-move 15s linear infinite; font-size: 20px;
+  }
+  @keyframes text-move 
+  { 
+      0% { right: -240%; } 
+      100% { right: 100%; } 
+  }

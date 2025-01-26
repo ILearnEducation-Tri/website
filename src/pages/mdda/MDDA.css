@@ -1,0 +1,217 @@
+/* Base styles */
+.mdda-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+.mdda-content h1 {
+    font-size: 3rem;
+    color: #242021;
+    font-weight: bold;
+}
+.mdda-content h2 {
+    display: inline-block;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: 0px 50px 0px 20px;
+    z-index: 2;
+}
+.mdda-content h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #242021;
+    z-index: -1;
+    transform: skewX(-20deg);
+    transform-origin: top left;
+}
+.mdda-content p {
+    font-size: 1.1rem;
+    color: #555;
+}
+.mdda-image img {
+    border-radius: 8px;
+    max-width: 100%;
+    padding: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.mdda-landing-section {
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #0000008f, #08080830), url(../../../public/assets/images/mdda_landing.jpg);
+    color: white;
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mdda-landing-section .mdda-landing-form-side {
+    height: 650px;
+    background: #2b2b2bb2;
+    color: white;
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    align-content: space-evenly;
+}
+.mdda-landing-section .mdda-landing-form-side h1{
+    color: #fff;
+    text-align: left;
+}
+.mdda-landing-section .mdda-landing-form-side h4{
+    color: #9c9c9c;
+    text-align: left;
+}
+
+
+.mdda-course-section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+.mdda-course-content {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.mdda-course-section h1 {
+    text-align: center;
+}
+.mdda-course-content h2 {
+    display: inline-block;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: 0px 50px 0px 20px;
+    z-index: 2;
+}
+.mdda-course-content h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #242021;
+    z-index: -1;
+    transform: skewX(-20deg);
+    transform-origin: top left;
+}
+.mdda-course-software {
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.mdda-course-career {
+    background-color: rgba(157, 157, 157, 0.151);
+    border-radius: 8px;
+    padding: 20px;
+}
+.mdda-course-career h2 {
+    color: #007bff;
+}
+.mdda-course-career h2::before {
+    background-color: transparent;
+}
+
+@keyframes dropDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .mdda-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .mdda-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .mdda-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .mdda-section {
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .mdda-content h1 {
+        font-size: 2rem;
+    }
+
+    .mdda-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .mdda-content p {
+        font-size: 0.9rem;
+    }
+
+    .mdda-image img {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mdda-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .mdda-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .mdda-content p {
+        font-size: 0.85rem;
+    }
+
+    .mdda-section {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .mdda-content h1 {
+        font-size: 1.6rem;
+    }
+
+    .mdda-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .mdda-content p {
+        font-size: 0.8rem;
+    }
+
+    .mdda-section {
+        padding: 10px 0;
+    }
+}

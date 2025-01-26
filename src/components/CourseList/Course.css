@@ -1,0 +1,25 @@
+.course_btn {
+    color: #fff;
+    font-weight: 800;
+    background: #007bff;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-0.5* var(--bs-gutter-x));
+    margin-left: calc(-0.5* var(--bs-gutter-x));
+}
+.feature-box {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+    text-align: center;
+    height: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
