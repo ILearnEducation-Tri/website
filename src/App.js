@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer.js';
 import Whatsapp from './components/Footer/Whatsapp.js';
 
 function App() {
+
   return (
       <div className="App">
         <Navbar />

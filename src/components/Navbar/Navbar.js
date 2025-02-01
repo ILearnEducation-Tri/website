@@ -11,7 +11,7 @@ export const Navbar = () => {
     const handleTogglerClick = () => {
       setIsExpanded((prev) => !prev);
     };
-
+    
   return (
     <header  id="myHeader">
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
