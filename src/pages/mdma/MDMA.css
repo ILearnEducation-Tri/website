@@ -65,11 +65,11 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     align-content: space-evenly;
 }
-.mdda-landing-section .mdma-landing-form-side h1{
+.mdma-landing-section .mdma-landing-form-side h1{
     color: #fff;
     text-align: left;
 }
-.mdda-landing-section .mdma-landing-form-side h4{
+.mdma-landing-section .mdma-landing-form-side h4{
     color: #9c9c9c;
     text-align: left;
 }
@@ -186,33 +186,33 @@
         font-size: 1.8rem;
     }
 
-    .mdda-content h2 {
+    .mdma-content h2 {
         font-size: 1.4rem;
     }
 
-    .mdda-content p {
+    .mdma-content p {
         font-size: 0.85rem;
     }
 
-    .mdda-section {
+    .mdma-section {
         padding: 20px 0;
     }
 }
 
 @media (max-width: 576px) {
-    .mdda-content h1 {
+    .mdma-content h1 {
         font-size: 1.6rem;
     }
 
-    .mdda-content h2 {
+    .mdma-content h2 {
         font-size: 1.2rem;
     }
 
-    .mdda-content p {
+    .mdma-content p {
         font-size: 0.8rem;
     }
 
-    .mdda-section {
+    .mdma-section {
         padding: 10px 0;
     }
 }

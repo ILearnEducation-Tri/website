@@ -1,0 +1,26 @@
+.mdgd-section {
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+.mdgd-image img {
+    border-radius: 8px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.mdgd-course-career {
+    background-color: rgba(157, 157, 157, 0.151);
+    border-radius: 8px;
+    padding: 20px;
+}
+.mdgd-course-career h2 {
+    color: #007bff;
+}
+.mdgd-course-career h2::before {
+    background-color: transparent;
+}
+.mdgd-course-career ul {
+    background-color: transparent;
+}

@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import './MDDA.css'
+import Footer from '../../components/Footer/Footer';
+import Whatsapp from '../../components/Footer/Whatsapp';
 
 function MDDA() {
     useEffect(() => {
@@ -178,6 +180,8 @@ function MDDA() {
                 </div>
             </div>
         </section>
+        <Footer/>
+        <Whatsapp/>
     </div>
   )
 }

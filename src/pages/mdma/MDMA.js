@@ -28,7 +28,7 @@ function MDMA() {
                         <p>This program will give a conceptual understanding of different forms of multimedia and animation.</p>
                     </div>
                     <div class="col-lg-6 col-md-12 mdma-image text-center">
-                        <img src="/assets/images/lizard.png" class="img-fluid" alt="Lizard cartoon"/>
+                        <img src="/assets/images/cartoon_bird.png" class="img-fluid" alt="Lizard cartoon"/>
                     </div>
                 </div>
             </div>
