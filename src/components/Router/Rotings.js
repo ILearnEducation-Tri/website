@@ -14,6 +14,9 @@ import GWE from "../../pages/gwe/GWE.js";
 import UIUX from "../../pages/uiux/UIUX.js";
 import DTP from "../../pages/dtp/DTP.js";
 import MGE from "../../pages/mge/MGE.js";
+import PDDM from "../../pages/pddm/PDDM.js";
+import DDM from "../../pages/ddm/DDM.js";
+import CDM from "../../pages/cdm/CDM.js";
 
 
 export const router = createBrowserRouter([
@@ -80,6 +83,21 @@ export const router = createBrowserRouter([
     {
       path:'/mge',
       element:<MGE/>,
+      errorElement:<Notfound />
+    },
+    {
+      path:'/pddm',
+      element:<PDDM/>,
+      errorElement:<Notfound />
+    },
+    {
+      path:'/ddm',
+      element:<DDM/>,
+      errorElement:<Notfound />
+    },
+    {
+      path:'/cdm',
+      element:<CDM/>,
       errorElement:<Notfound />
     },
     {
