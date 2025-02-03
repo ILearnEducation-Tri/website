@@ -1,0 +1,6 @@
+.adwd-image img {
+    border-radius: 8px;
+    max-width: 60%;
+    size: 50vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}

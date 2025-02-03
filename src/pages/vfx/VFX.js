@@ -37,7 +37,6 @@ function VFX() {
                                 <li>Motion Graphic Designer</li>
                             </ul>
                         </div>
-                        <img src="/assets/images/cartoon_bird.png" class="img-fluid d-none" alt="Lizard cartoon"/>
                     </div>
                 </div>
             </div>
