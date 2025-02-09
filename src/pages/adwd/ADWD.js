@@ -9,13 +9,22 @@ function ADWD() {
     }, []);
   return (
     <div>
+        <section className="adwd-landing-section d-flex align-items-center justify-content-center text-center py-5">
+        <div className="container transparent m-4">
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-10">
+              <div className="adwd-landing-form-side p-4">
+                <h1>ADVANCE DIPLOMA IN WEB DESIGNING</h1>
+                <h4 className="mt-3">DURATION : 6 MONTHS</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
         <section class="dma-section" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12 mdma-content text-center text-lg-start">
-                        <h1>ADVANCE DIPLOMA IN WEB DESIGNING</h1>
-                        <h2>DURATION:</h2>
-                        <h2>6 MONTHS</h2>
                         <p class="mt-4">
                             This is a course with trio modules of web designing, multimedia authoring, and hardcore web programming. 
                         </p>
@@ -25,7 +34,7 @@ function ADWD() {
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-10 d-flex justify-content-center adwd-image">
-                        <img src="/assets/images/web_designing.jpg" alt="Elephant cartoon" class="img-fluid" />
+                        <img src="/assets/images/web_designing.jpg" alt="Computer" class="img-fluid" />
                     </div>
                 </div>
             </div>

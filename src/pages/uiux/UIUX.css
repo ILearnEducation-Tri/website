@@ -1,0 +1,6 @@
+.uiux-landing-section {
+    background: linear-gradient(to right, #0000008f, #08080830), url(../../../public/assets/images/uiux-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

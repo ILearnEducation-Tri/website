@@ -9,13 +9,22 @@ function MDMA() {
     }, []);
   return (
     <div>
+        <section className="mdma-landing-section-one d-flex align-items-center justify-content-center text-center py-5">
+            <div className="container transparent m-4">
+                <div className="row justify-content-center">
+                    <div className="col-lg-4 col-md-6 col-sm-10">
+                        <div className="mdma-landing-form-side p-4">
+                            <h1>MASTER DIPLOMA IN MULTIMEDIA AND ANIMATION</h1>
+                            <h4 className="mt-3">DURATION : 10 MONTHS</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="mdma-section" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12 mdma-content text-center text-lg-start">
-                        <h1>MASTER DIPLOMA IN MULTIMEDIA AND ANIMATION</h1>
-                        <h2>DURATION:</h2>
-                        <h2>10 MONTHS</h2>
                         <p class="mt-4">
                             The Master Animation program provides a balance of creative and technical skills necessary for success
                             in multimedia production.
@@ -28,21 +37,7 @@ function MDMA() {
                         <p>This program will give a conceptual understanding of different forms of multimedia and animation.</p>
                     </div>
                     <div class="col-lg-6 col-md-12 mdma-image text-center">
-                        <img src="/assets/images/cartoon_bird.png" class="img-fluid" alt="Lizard cartoon"/>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="mdma-landing-section py-5">
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-lg-7 col-md-6 text-lg-start content-side">
-                    </div>
-                    <div className="col-lg-5 col-md-6 d-none">
-                        <div className="mdma-landing-form-side text-center">
-                            <h1>LEARN MULTIMEDIA & VFX</h1>
-                            <h4>FROM INDUSTRY EXPERTS</h4>
-                        </div>
+                        <img src="/assets/images/mdma-cartoon.png" class="img-fluid" alt="Lizard cartoon"/>
                     </div>
                 </div>
             </div>

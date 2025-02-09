@@ -9,13 +9,22 @@ function VFX() {
     }, []);
   return (
     <div>
+        <section className="vfx-landing-section-one d-flex align-items-center justify-content-center text-center py-5">
+            <div className="container transparent m-4">
+                <div className="row justify-content-center">
+                    <div className="col-lg-4 col-md-6 col-sm-10">
+                        <div className="vfx-landing-form-side p-4">
+                            <h1>DIPLOMA IN VIDEO EDITING AND VFX</h1>
+                            <h4 className="mt-3">DURATION : 6 MONTHS</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="dma-section" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12 mdma-content text-center text-lg-start">
-                        <h1>DIPLOMA IN VIDEO EDITING AND VFX</h1>
-                        <h2>DURATION:</h2>
-                        <h2>6 MONTHS</h2>
                         <p class="mt-4">
                             This program is specialized in audio, video editing and post production works.                            
                         </p>
@@ -24,19 +33,8 @@ function VFX() {
                             with effective background, sounds and music, adding dynamic special effects
                         </p>
                     </div>
-                    <div class="col-lg-6 col-md-12 mdma-image">
-                        <div class="mdma-course-career">
-                            <h2 className='text-center'>CAREER PATH</h2>
-                            <ul className='text-left'>
-                                <li>Post production Specialist</li>
-                                <li>VFX Specialist</li>
-                                <li>SFX Specialist</li>
-                                <li>2D Compositor</li>
-                                <li>3D Compositor</li>
-                                <li>Editor Movie Marketing Artist</li>
-                                <li>Motion Graphic Designer</li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-6 d-flex justify-content-center align-items-center vfx-image">
+                        <img src="/assets/images/vfx-about.png" alt="Game Development"/>
                     </div>
                 </div>
             </div>
@@ -82,6 +80,36 @@ function VFX() {
                         </ul>
                         <div class="mdma-course-software">
                             <strong>Software:</strong> Adobe Character Animator, Adobe Animate
+                        </div>
+                    </div>
+                    <div class="container mt-5">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="mdgd-course-career text-center">
+                                    <h2>CAREER PATH</h2>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li>Post production Specialist</li>
+                                                <li>VFX Specialist</li>
+                                                <li>SFX Specialist</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li>2D Compositor</li>
+                                                <li>3D Compositor</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li>Editor Movie Marketing Artist</li>
+                                                <li>Motion Graphic Designer</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

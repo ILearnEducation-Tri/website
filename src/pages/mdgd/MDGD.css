@@ -1,3 +1,36 @@
+.mdgd-landing-section-one {
+    min-height: 600px;
+    background: linear-gradient(to right, #0000000c, #08080814), url(../../../public/assets/images/game_designing.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.transparent{
+    background: #6f6c6c5a;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+.mdgd-landing-section-one .mdgd-landing-form-side {
+    height: 500px;
+    /* width: 90vw; */
+    color: white;
+    padding: 30px;
+    align-content: space-evenly;
+}
+.mdgd-landing-section-one .mdgd-landing-form-side h1{
+    color: #fff;
+    text-align: left;
+}
+.mdgd-landing-section-one .mdgd-landing-form-side h4{
+    width: fit-content;
+    padding: 0px 10px;
+    background-color: white;
+    color: #000000;
+    text-align: left;
+}
+
+
 .mdgd-section {
     height: auto;
     display: flex;
@@ -7,8 +40,8 @@
 }
 .mdgd-image img {
     border-radius: 8px;
-    max-width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 50%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 .mdgd-course-career {
     background-color: rgba(157, 157, 157, 0.151);

@@ -9,13 +9,22 @@ function DMA() {
     }, []);
   return (
     <div>
+        <section className="dma-landing-section-one d-flex align-items-center justify-content-center text-center py-5">
+            <div className="container transparent m-4">
+                <div className="row justify-content-center">
+                    <div className="col-lg-4 col-md-6 col-sm-10">
+                        <div className="dma-landing-form-side p-4">
+                            <h1>DIPLOMA IN MULTIMEDIA AND ANIMATION</h1>
+                            <h4 className="mt-3">DURATION : 8 MONTHS</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="dma-section" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12 mdma-content text-center text-lg-start">
-                        <h1>DIPLOMA IN MULTIMEDIA AND ANIMATION</h1>
-                        <h2>DURATION:</h2>
-                        <h2>8 MONTHS</h2>
                         <p class="mt-4">
                             This program works as a quick ride to the world of Print & animation industry.                            
                         </p>
@@ -24,20 +33,8 @@ function DMA() {
                             for print and visual media.
                         </p>
                     </div>
-                    <div class="col-lg-6 col-md-12 mdma-image">
-                        <div class="mdma-course-career">
-                            <h2 className='text-center'>CAREER PATH</h2>
-                            <ul className='text-left'>
-                                <li>Graphic Designer</li>
-                                <li>Compositor - 2D/3D Animator</li>
-                                <li>3D Modeler</li>
-                                <li>Texturing & Lighting Artist</li>
-                                <li>Layout Designer</li>
-                                <li>Effects Artist - Visualizer</li>
-                                <li>Layout Artist : Rigging Artist</li>
-                            </ul>
-                        </div>
-                        <img src="/assets/images/cartoon_bird.png" class="img-fluid d-none" alt="Lizard cartoon"/>
+                    <div class="col-lg-6 col-md-12 mdma-image text-center">
+                        <img src="/assets/images/dma-about.png" class="img-fluid" alt="cartoon"/>
                     </div>
                 </div>
             </div>
@@ -105,6 +102,36 @@ function DMA() {
                         </ul>
                         <div class="mdma-course-software">
                             <strong>Software:</strong> Autodesk Maya
+                        </div>
+                    </div>
+                    <div class="container mt-5">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="mdgd-course-career text-center">
+                                    <h2>CAREER PATH</h2>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li>Graphic Designer</li>
+                                                <li>Compositor - 2D/3D Animator</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li>3D Modeler</li>
+                                                <li>Texturing & Lighting Artist</li>
+                                                <li>Layout Designer</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <ul>
+                                                <li>Effects Artist - Visualizer</li>
+                                                <li>Layout Artist : Rigging Artist</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,36 @@
+.dma-landing-section-one {
+    min-height: 600px;
+    background: linear-gradient(to right, #0000000c, #08080814), url(../../../public/assets/images/dma-bg.jpg);
+    color: white;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+.transparent{
+    background: #6f6c6c5a;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+.dma-landing-section-one .dma-landing-form-side {
+    height: 500px;
+    /* width: 90vw; */
+    color: white;
+    padding: 30px;
+    align-content: space-evenly;
+}
+.dma-landing-section-one .dma-landing-form-side h1{
+    color: #fff;
+    text-align: left;
+}
+.dma-landing-section-one .dma-landing-form-side h4{
+    width: fit-content;
+    padding: 0px 10px;
+    background-color: white;
+    color: #000000;
+    text-align: left;
+}
+
 .dma-section {
     height: auto;
     display: flex;

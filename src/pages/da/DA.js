@@ -9,12 +9,22 @@ function DA() {
     }, []);
   return (
     <div>
+        <section className="da-landing-section d-flex align-items-center justify-content-center text-center py-5">
+        <div className="container transparent m-4">
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-10">
+              <div className="da-landing-form-side p-4">
+                <h1>DIPLOMA IN ANIMATION</h1>
+                <h4 className="mt-3">DURATION : 6 MONTHS</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
         <section class="da-section" id="about">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-10 text-center text-lg-start mdda-content">
-                        <h1 class="fw-bold">DIPLOMA IN ANIMATION</h1>
-                        <h2 class="mt-3">DURATION: <span class="fw-normal">6 MONTHS</span></h2>
                         <p class="mt-4">
                             One can hold control on animation world moving perfect hand on, concepts, principles by animation & software’s.
                         </p>
@@ -24,7 +34,7 @@ function DA() {
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-10 d-flex justify-content-center da-image">
-                        <img src="/assets/images/dv_aboute.png" alt="Elephant cartoon" class="img-fluid" />
+                        <img src="/assets/images/da-about.png" alt="cartoon" class="img-fluid" />
                     </div>
                 </div>
             </div>

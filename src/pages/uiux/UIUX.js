@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Footer from '../../components/Footer/Footer';
 import Whatsapp from '../../components/Footer/Whatsapp';
+import './UIUX.css'
 
 const CourseSection = ({ title, items }) => (
   <div className="mb-4">
@@ -131,13 +132,13 @@ const UIUX = () => {
       />
 
       {/* Header Section */}
-      <div className="bg-primary text-white py-4">
+      <div className="uiux-landing-section text-white py-4">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-8">
               <h1 className="display-5 fw-bold mb-0">DIPLOMA IN UI/UX DESIGNING</h1>
               <div className="bg-dark d-inline-block px-3 py-1 mt-2">
-                <h2 className="h5 mb-0 text-white">DURATION: 6 MONTHS</h2>
+                <h2 className="h5 mb-0 text-white">DURATION : 6 MONTHS</h2>
               </div>
             </div>
             <div className="col-md-4">

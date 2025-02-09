@@ -9,12 +9,22 @@ function MDDA() {
         }, []);
   return (
     <div>
+        <section className="mdda-landing-section-one d-flex align-items-center justify-content-center text-center py-5">
+            <div className="container transparent m-4">
+                <div className="row justify-content-center">
+                    <div className="col-lg-4 col-md-6 col-sm-10">
+                        <div className="mdda-landing-form-side p-4">
+                            <h1>MASTER DIPLOMA IN DIGITAL ANIMATION</h1>
+                            <h4 className="mt-3">DURATION : 14 MONTHS</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="mdda-section" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 mdda-content">
-                        <h1>MASTER DIPLOMA IN DIGITAL ANIMATION</h1>
-                        <h2>DURATION :</h2><h2> 14 MONTHS</h2>
                         <p class="mt-4">
                             This course aims to mentor you in all areas of Design, Animation, Vfx and Editing.
                             It empowers you with multiple skill sets, thus giving you an edge over your peers.
@@ -37,16 +47,14 @@ function MDDA() {
                         </ul>
                     </div>
                     <div class="col-lg-6 mdda-image">
-                        <img src="/assets/images/mdda_about.png" alt="Elephent cartoon"/>
+                        <img src="/assets/images/mdda_about.png" alt="cartoon"/>
                     </div>
                 </div>
             </div>
         </section>
         <section className="mdda-landing-section">
             <div className="container">
-                <div className="row  align-items-center">
-                    <div className="col-lg-7 col-md-6 text-center text-lg-start content-side">
-                    </div>
+                <div className="row  align-items-center justify-content-end">
                     <div className="col-lg-4 col-md-6">
                         <div className="mdda-landing-form-side">
                             <h1>

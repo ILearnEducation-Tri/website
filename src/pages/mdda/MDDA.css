@@ -1,4 +1,38 @@
 /* Base styles */
+.mdda-landing-section-one {
+    min-height: 600px;
+    background: linear-gradient(to right, #0000000c, #08080814), url(../../../public/assets/images/mdda_bg.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.transparent{
+    background: #6f6c6c5a;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+.mdda-landing-section-one .mdda-landing-form-side {
+    height: 500px;
+    /* width: 90vw; */
+    color: white;
+    padding: 30px;
+    align-content: space-evenly;
+}
+.mdda-landing-section-one .mdda-landing-form-side h1{
+    color: #fff;
+    text-align: left;
+}
+.mdda-landing-section-one .mdda-landing-form-side h4{
+    width: fit-content;
+    padding: 0px 10px;
+    background-color: white;
+    color: #000000;
+    text-align: left;
+}
+
+
 .mdda-section {
     height: 100vh;
     display: flex;
@@ -39,8 +73,7 @@
 }
 .mdda-image img {
     border-radius: 8px;
-    max-width: 100%;
-    padding: 100px;
+    max-width: 75%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 

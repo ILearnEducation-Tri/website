@@ -9,12 +9,22 @@ function MDGD() {
     }, []);
   return (
     <div>
+        <section className="mdgd-landing-section-one d-flex align-items-center justify-content-center text-center py-5">
+            <div className="container transparent m-4">
+                <div className="row justify-content-center">
+                    <div className="col-lg-4 col-md-6 col-sm-10">
+                        <div className="mdgd-landing-form-side p-4">
+                            <h1>MASTER DIPLOMA IN GAME DESIGN</h1>
+                            <h4 className="mt-3">DURATION : 12 MONTHS</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="mdgd-section" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 mdda-content">
-                        <h1>MASTER DIPLOMA IN GAME DESIGN</h1>
-                        <h2>DURATION :</h2><h2> 12 MONTHS</h2>
                         <p class="mt-4">
                             Master Diploma in Game Design is an intensive program designed to equip students with 
                             essential skills and knowledge required for successful career in game designing industry.
@@ -24,8 +34,8 @@ function MDGD() {
                             concept art to final game production.
                         </p>
                     </div>
-                    <div class="col-lg-6 mdgd-image">
-                        <img src="/assets/images/game_designing.jpg" alt="Game Development"/>
+                    <div class="col-lg-6 d-flex justify-content-center align-items-center mdgd-image">
+                        <img src="/assets/images/mdgd-cartoon.png" alt="Game Development"/>
                     </div>
                 </div>
             </div>

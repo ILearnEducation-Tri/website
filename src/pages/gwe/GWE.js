@@ -9,13 +9,22 @@ function GWE() {
     }, []);
   return (
     <div>
+        <section className="gwe-landing-section d-flex align-items-center justify-content-center text-center py-5">
+        <div className="container transparent m-4">
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-10">
+              <div className="gwe-landing-form-side p-4">
+                <h1>GRAPHIC AND WEB EXPERT</h1>
+                <h4 className="mt-3">DURATION : 10 MONTHS</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
         <section class="dma-section" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12 mdma-content text-center text-lg-start">
-                        <h1>GRAPHIC AND WEB EXPERT</h1>
-                        <h2>DURATION:</h2>
-                        <h2>10 MONTHS</h2>
                         <p class="mt-4">
                             The future looks bright for students who opt for a career in Graphic and Web Industry. 
                         </p>
@@ -25,22 +34,8 @@ function GWE() {
                             EDUCATION gives an upper edge for the students to become highly professional in their approach.
                         </p>
                     </div>
-                    <div class="col-lg-6 col-md-12 mdma-image">
-                        <div class="mdma-course-career">
-                            <h2 className='text-center'>CAREER PATH</h2>
-                            <ul className='text-left'>
-                                <li>Graphic Designer</li>
-                                <li>Designer</li>
-                                <li>Digital Painter</li>
-                                <li>Matte Painter</li>
-                                <li>Photo Studio Professionals</li>
-                                <li>Pre-press specialist</li>
-                                <li>Desktop Publisher</li>
-                                <li>Web Designer</li>
-                                <li>Web Animator</li>
-                                <li>Front end Developer</li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-6 col-md-10 d-flex justify-content-center adwd-image">
+                        <img src="/assets/images/gwe-aboute.png" alt="Computer" class="img-fluid" />
                     </div>
                 </div>
             </div>
@@ -77,7 +72,23 @@ function GWE() {
                         <div class="mdma-course-software">
                             <strong>Software:</strong>  Adobe Photoshop, Adobe Illustrator, CorelDraw
                                                         Adobe PageMaker, Adobe InDesign, MsDTP, typing
-                        </div>              
+                        </div>
+                        {/* ---------------------------------------------------------------------------------------------- */}
+                        <h2>Module 3 :</h2>
+                        <h3>WEB DEVELOPMENT & PROGRAMMING</h3>
+                        <ul>
+                            <li>HTML coding</li>
+                            <li>Action script Fundamentals</li>
+                            <li>Web programming</li>
+                            <li>Web hosting & maintenance</li>
+                            <li>CSS & Bootstrap</li>
+                        </ul>
+                        <div class="mdma-course-software">
+                            <strong>Software:</strong>  Adobe Dreamweaver, WordPress,
+                                                        Visual Studio, Sublime Text,
+                                                        HTML 5, CSS 3, Responsive Web Design,
+                                                        Bootstrap, Java script
+                        </div>             
                     </div>
 
                     <div class="col-lg-6 mdma-course-content">
@@ -101,23 +112,22 @@ function GWE() {
                         </ul>
                         <div class="mdma-course-software">
                             <strong>Software:</strong> Adobe Animate
+                        </div>    
+                        <div class="mdma-course-career">
+                            <h2 className='text-center'>CAREER PATH</h2>
+                            <ul className='text-left'>
+                                <li>Graphic Designer</li>
+                                <li>Designer</li>
+                                <li>Digital Painter</li>
+                                <li>Matte Painter</li>
+                                <li>Photo Studio Professionals</li>
+                                <li>Pre-press specialist</li>
+                                <li>Desktop Publisher</li>
+                                <li>Web Designer</li>
+                                <li>Web Animator</li>
+                                <li>Front end Developer</li>
+                            </ul>
                         </div>
-                        {/* ---------------------------------------------------------------------------------------------- */}
-                        <h2>Module 3 :</h2>
-                        <h3>WEB DEVELOPMENT & PROGRAMMING</h3>
-                        <ul>
-                            <li>HTML coding</li>
-                            <li>Action script Fundamentals</li>
-                            <li>Web programming</li>
-                            <li>Web hosting & maintenance</li>
-                            <li>CSS & Bootstrap</li>
-                        </ul>
-                        <div class="mdma-course-software">
-                            <strong>Software:</strong>  Adobe Dreamweaver, WordPress,
-                                                        Visual Studio, Sublime Text,
-                                                        HTML 5, CSS 3, Responsive Web Design,
-                                                        Bootstrap, Java script
-                        </div>       
                     </div>
                 </div>
             </div>
