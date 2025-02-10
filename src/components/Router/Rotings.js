@@ -8,6 +8,7 @@ import DMA from "../../pages/dma/DMA.js";
 import VFX from "../../pages/vfx/VFX.js";
 import MDGD from "../../pages/mdgd/MDGD.js";
 import DVE from "../../pages/dve/DVE.js";
+import DGD from "../../pages/dgd/DGD.js";
 import DA from "../../pages/da/DA.js";
 import ADWD from "../../pages/adwd/ADWD.js";
 import GWE from "../../pages/gwe/GWE.js";
@@ -17,6 +18,9 @@ import MGE from "../../pages/mge/MGE.js";
 import PDDM from "../../pages/pddm/PDDM.js";
 import DDM from "../../pages/ddm/DDM.js";
 import CDM from "../../pages/cdm/CDM.js";
+import AID from "../../pages/aid/AID.js";
+import DFDM from "../../pages/dfdm/DFDM.js";
+import CV from "../../pages/cv/CV.js";
 
 
 export const router = createBrowserRouter([
@@ -53,6 +57,11 @@ export const router = createBrowserRouter([
     {
       path:'/dve',
       element:<DVE/>,
+      errorElement:<Notfound />
+    },
+    {
+      path:'/dgd',
+      element:<DGD/>,
       errorElement:<Notfound />
     },
     {
@@ -98,6 +107,21 @@ export const router = createBrowserRouter([
     {
       path:'/cdm',
       element:<CDM/>,
+      errorElement:<Notfound />
+    },
+    {
+      path:'/aid',
+      element:<AID/>,
+      errorElement:<Notfound />
+    },
+    {
+      path:'/dfdm',
+      element:<DFDM/>,
+      errorElement:<Notfound />
+    },
+    {
+      path:'/cv',
+      element:<CV/>,
       errorElement:<Notfound />
     },
     {

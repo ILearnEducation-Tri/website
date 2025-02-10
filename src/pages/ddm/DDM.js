@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import Footer from '../../components/Footer/Footer';
 import Whatsapp from '../../components/Footer/Whatsapp';
+import './DDM.css';
 
 const CourseSection = ({ title, items }) => (
-    <div className="mb-4">
-      <h2 className="text-dark mb-3">{title}</h2>
+    <div className="mb-4 uiux-course-content">
+      <h2 className="text-white mb-3">{title}</h2>
       <ul className="list-unstyled">
         {items.map((item, index) => (
           <li key={index} className="mb-2">
@@ -14,7 +15,7 @@ const CourseSection = ({ title, items }) => (
         ))}
       </ul>
     </div>
-  );
+);
 
 function DDM() {
     useEffect(() => {
@@ -71,36 +72,38 @@ return (
         rel="stylesheet"
         />
         {/* Header Section */}
-        <div className="bg-primary text-white py-4">
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-md-8">
-                        <h1 className="display-5 fw-bold mb-0">DIPLOMA IN DIGITAL MARKETING</h1>
-                        <div className="bg-dark d-inline-block px-3 py-1 mt-2">
-                            <h2 className="h5 mb-0 text-white">DURATION : 4 MONTHS</h2>
+        <section className="ddm-landing-section d-flex align-items-center justify-content-center text-center py-5">
+            <div className="container transparent m-4">
+                <div className="row justify-content-start">
+                    <div className="col-lg-3 col-md-6 col-sm-10">
+                        <div className="ddm-landing-form-side p-1">
+                            <h1>DIPLOMA IN DIGITAL MARKETING</h1>
+                            <h4 className="mt-3">DURATION : 4 MONTHS</h4>
                         </div>
                     </div>
-                    {/* <div className="col-md-4">
-                    <img
-                        src="/assets/images/ui_ux.jpg"
-                        alt="UI/UX Design Illustration"
-                        className="img-fluid rounded"
-                    />
-                    </div> */}
+                </div>
+            </div>
+        </section>
+
+        {/* Course Description */}
+        <div className="container my-5">
+            <div className="row">
+                <div className="col-lg-6 mt-5">
+                    <div className="bg-white p-4 bg-transparent">
+                    {/* <h2 className="text-center text-dark">Course Description</h2> */}
+                    <p className="text-muted">
+                            The objective of this course will be on developing digital marketing concepts along wim practical application. 
+                            This course has provided all all Social media marketing and SEO Training with HTML. We expect the students to 
+                            start their career in the area of digital marketing arketing Methods of this course will be confident
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-10 d-lg-flex justify-content-center ddm-image d-none d-lg-flex">
+                    <img src="/assets/images/ddm-aboute.png" alt="Computer" class="img-fluid" />
                 </div>
             </div>
         </div>
-        {/* Course Description */}
-        <div className="container mt-4">
-            <div className="bg-white p-4 rounded shadow-sm">
-                {/* <h2 className="text-center text-dark">Course Description</h2> */}
-                <p className="text-muted">
-                    The objective of this course will be on developing digital marketing concepts along wim practical application. 
-                    This course has provided all all Social media marketing and SEO Training with HTML. We expect the students to 
-                    start their career in the area of digital marketing arketing Methods of this course will be confident
-                </p>
-            </div>
-        </div>
+
         {/* Main Content */}
         <div className="container py-5">
             <div className="row">

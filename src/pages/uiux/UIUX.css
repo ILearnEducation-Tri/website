@@ -4,3 +4,33 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.uiux-course-content {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.uiux-course-section h1 {
+    text-align: center;
+}
+.uiux-course-content h2 {
+    display: inline-block;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: 0px 50px 0px 20px;
+    z-index: 2;
+}
+.uiux-course-content h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #242021;
+    z-index: -1;
+    transform: skewX(-20deg);
+    transform-origin: top left;
+}

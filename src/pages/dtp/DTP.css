@@ -1,0 +1,52 @@
+.dtp-landing-section {
+    min-height: 650px;
+    background: linear-gradient(to right, #0000008f, #08080830), url(../../../public/assets/images/dtp-bg.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.transparent{
+    background: #6f6c6c5a;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+
+}
+.dtp_row {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* 0.5);
+    padding-left: calc(var(--bs-gutter-x)* 0.5);
+    margin-top: var(--bs-gutter-y);
+}
+.dtp-landing-section .dtp-landing-form-side {
+    height: 500px;
+    /* width: 90vw; */
+    color: white;
+    padding: 30px;
+    align-content: space-evenly;
+}
+.dtp-landing-section .dtp-landing-form-side h1{
+    color: #fff;
+    text-align: left;
+}
+.dtp-landing-section .dtp-landing-form-side h4{
+    width: fit-content;
+    padding: 0px 10px;
+    background-color: white;
+    color: #000000;
+    text-align: left;
+}
+.dtp-image {
+    position: relative;
+}
+.dtp-image img {
+    border-radius: 8px;
+    max-width: 70%;    
+    size: 50vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

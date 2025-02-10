@@ -9,6 +9,7 @@ const courses = [
     { shortForm: 'MDGD', title: 'Master Diploma in Game Design' },
     { shortForm: 'VFX', title: 'Video Editing & VFX' },
     { shortForm: 'DVE', title: 'Diploma in Video Editing' },
+    { shortForm: 'DGD', title: 'Diploma in Graphic Design' },
     { shortForm: 'DA', title: 'Diploma in Animation' },
     { shortForm: 'ADWD', title: 'Advance Diploma in Web Designing' },
     { shortForm: 'GWE', title: 'Graphic and Web Expert' },
@@ -19,9 +20,8 @@ const courses = [
     { shortForm: 'DDM', title: 'Diploma in Digital Marketing' },
     { shortForm: 'CDM', title: 'Certificate in Digital Marketing' },
     { shortForm: 'AID', title: 'AI Developer' },
-    { shortForm: 'CFDM', title: 'Diploma in Film Digital Marketing' },
-    { shortForm: 'DM', title: 'Direction & Making' },
-    { shortForm: 'CV', title: 'Cinematography & Videography' }
+    { shortForm: 'DFDM', title: 'Diploma in Film Direction & Making' },
+    { shortForm: 'CV', title: 'Cinematography & Videography' },
   ];
   
 

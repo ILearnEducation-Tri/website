@@ -1,38 +1,48 @@
-.vfx-landing-section-one {
-    min-height: 600px;
-    background: linear-gradient(to right, #0000000c, #08080814), url(../../../public/assets/images/vfx-bg.jpg);
+.aid-landing-section {
+    min-height: 650px;
+    background: linear-gradient(to right, #0000008f, #08080830), url(../../../public/assets/images/aid-bg.jpg);
     color: white;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
+
 }
 .transparent{
     background: #6f6c6c5a;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
+
 }
-.vfx-landing-section-one .vfx-landing-form-side {
+.aid_row {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* 0.5);
+    padding-left: calc(var(--bs-gutter-x)* 0.5);
+    margin-top: var(--bs-gutter-y);
+}
+.aid-landing-section .aid-landing-form-side {
     height: 500px;
     /* width: 90vw; */
     color: white;
     padding: 30px;
     align-content: space-evenly;
 }
-.vfx-landing-section-one .vfx-landing-form-side h1{
+.aid-landing-section .aid-landing-form-side h1{
     color: #fff;
     text-align: left;
 }
-.vfx-landing-section-one .vfx-landing-form-side h4{
+.aid-landing-section .aid-landing-form-side h4{
     width: fit-content;
     padding: 0px 10px;
     background-color: white;
     color: #000000;
     text-align: left;
 }
-.vfx-image {
+.aid-image {
     position: relative;
 }
-.vfx-image img {
+.aid-image img {
     border-radius: 8px;
     max-width: 70%;    
     size: 50vh;

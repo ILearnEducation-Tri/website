@@ -4,8 +4,8 @@ import Whatsapp from '../../components/Footer/Whatsapp';
 import './UIUX.css'
 
 const CourseSection = ({ title, items }) => (
-  <div className="mb-4">
-    <h2 className="text-dark mb-3">{title}</h2>
+  <div className="mb-4 uiux-course-content">
+    <h2 className="text-white mb-3">{title}</h2>
     <ul className="list-unstyled">
       {items.map((item, index) => (
         <li key={index} className="mb-2">
@@ -95,8 +95,7 @@ const UIUX = () => {
       "UX/UI Design latest trends",
       "Mockup Interview"
     ]    
-  };
-  
+  };  
 
   const careerPath = [
     "UX Designer",
