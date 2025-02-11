@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Footer from '../../components/Footer/Footer';
 import Whatsapp from '../../components/Footer/Whatsapp';
+import { SubNavbar } from '../../components/Navbar/SubNavbar';
 import './UIUX.css'
 
 const CourseSection = ({ title, items }) => (
@@ -129,7 +130,7 @@ const UIUX = () => {
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css"
         rel="stylesheet"
       />
-
+<SubNavbar/>
       {/* Header Section */}
       <div className="uiux-landing-section text-white py-4">
         <div className="container">

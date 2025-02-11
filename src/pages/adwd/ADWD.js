@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import './ADWD.css'
-import Footer from '../../components/Footer/Footer'
-import Whatsapp from '../../components/Footer/Whatsapp'
+import Footer from '../../components/Footer/Footer';
+import Whatsapp from '../../components/Footer/Whatsapp';
+import { SubNavbar } from '../../components/Navbar/SubNavbar';
 
 function ADWD() {
     useEffect(() => {
@@ -9,6 +10,7 @@ function ADWD() {
     }, []);
   return (
     <div>
+        <SubNavbar/>
         <section className="adwd-landing-section d-flex align-items-center justify-content-center text-center py-5">
         <div className="container transparent m-4">
           <div className="row justify-content-center">

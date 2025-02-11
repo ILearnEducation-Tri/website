@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './DVE.css';
 import Footer from '../../components/Footer/Footer';
 import Whatsapp from '../../components/Footer/Whatsapp';
+import { SubNavbar } from '../../components/Navbar/SubNavbar';
 
 function DVE() {
     useEffect(()=>{
@@ -9,6 +10,7 @@ function DVE() {
     },[])
   return (
     <div>
+        <SubNavbar/>
       <section className="dve-landing-section d-flex align-items-center justify-content-center text-center py-5">
         <div className="container transparent m-4">
           <div className="row justify-content-center">

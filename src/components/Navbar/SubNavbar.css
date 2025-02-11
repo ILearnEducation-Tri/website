@@ -1,0 +1,7 @@
+.custom-text {
+    font-size: 3rem; /* Increase this value as needed */
+    font-weight: bolder;
+}
+.transform-head {
+    transform: translateX(-75px);
+}

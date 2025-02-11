@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './GWE.css'
 import Footer from '../../components/Footer/Footer'
 import Whatsapp from '../../components/Footer/Whatsapp'
+import { SubNavbar } from '../../components/Navbar/SubNavbar';
 
 function GWE() {
     useEffect(() => {
@@ -9,6 +10,7 @@ function GWE() {
     }, []);
   return (
     <div>
+        <SubNavbar/>
         <section className="gwe-landing-section d-flex align-items-center justify-content-center text-center py-5">
         <div className="container transparent m-4">
           <div className="row justify-content-center">

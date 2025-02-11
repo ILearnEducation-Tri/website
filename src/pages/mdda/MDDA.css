@@ -74,7 +74,7 @@
 .mdda-image img {
     border-radius: 8px;
     max-width: 75%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 
@@ -162,6 +162,10 @@
 }
 .mdda-course-career h2::before {
     background-color: transparent;
+}
+
+.mdda-icons-section {
+    background-color: #f8f9fa;
 }
 
 @keyframes dropDown {

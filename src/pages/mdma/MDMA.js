@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Footer from '../../components/Footer/Footer';
 import Whatsapp from '../../components/Footer/Whatsapp';
+import { SubNavbar } from '../../components/Navbar/SubNavbar';
 import './MDMA.css';
 
 function MDMA() {
@@ -9,6 +10,7 @@ function MDMA() {
     }, []);
   return (
     <div>
+        <SubNavbar/>
         <section className="mdma-landing-section-one d-flex align-items-center justify-content-center text-center py-5">
             <div className="container transparent m-4">
                 <div className="row justify-content-center">
@@ -21,11 +23,12 @@ function MDMA() {
                 </div>
             </div>
         </section>
-        <section class="mdma-section" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12 mdma-content text-center text-lg-start">
-                        <p class="mt-4">
+        <section class="py-5" id="about">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <div class="pe-lg-4">
+                    <p class="mt-4">
                             The Master Animation program provides a balance of creative and technical skills necessary for success
                             in multimedia production.
                             Students will gain a strong foundation in both traditional and computer-based forms of animation. 
@@ -36,18 +39,21 @@ function MDMA() {
                         </p>
                         <p>This program will give a conceptual understanding of different forms of multimedia and animation.</p>
                     </div>
-                    <div class="col-lg-6 col-md-12 mdma-image text-center">
-                        <img src="/assets/images/mdma-cartoon.png" class="img-fluid" alt="Lizard cartoon"/>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="text-center px-4 mdma-image">
+                        <img src="/assets/images/mdma-cartoon.png" alt="cartoon" class="img-fluid" />
                     </div>
                 </div>
             </div>
+        </div>
         </section>
         <section className="mdma-course-section">
             <div class="container">
                 <div class="row">
                     <h1>Course Outline</h1>
                     <div class="nav-tabs"/>
-                    <div class="col-lg-6 mdda-course-content">
+                    <div class="col-lg-6 mdma-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}
                         <h2>Module 1 :</h2>
                         <h3>Graphic Design</h3>

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './MDDA.css'
 import Footer from '../../components/Footer/Footer';
 import Whatsapp from '../../components/Footer/Whatsapp';
+import { SubNavbar } from '../../components/Navbar/SubNavbar';
 
 function MDDA() {
     useEffect(() => {
@@ -9,6 +10,7 @@ function MDDA() {
         }, []);
   return (
     <div>
+        <SubNavbar/>
         <section className="mdda-landing-section-one d-flex align-items-center justify-content-center text-center py-5">
             <div className="container transparent m-4">
                 <div className="row justify-content-center">
@@ -21,10 +23,11 @@ function MDDA() {
                 </div>
             </div>
         </section>
-        <section class="mdda-section" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 mdda-content">
+        <section class="py-5" id="about">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <div class="pe-lg-4">
                         <p class="mt-4">
                             This course aims to mentor you in all areas of Design, Animation, Vfx and Editing.
                             It empowers you with multiple skill sets, thus giving you an edge over your peers.
@@ -35,7 +38,7 @@ function MDDA() {
                             been acclaimed both nationally and internationally.
                         </p>
                         <p>
-                            The program also covers the development framework of Multimedia and Animation.
+                            The program also covers the development framework of Multimedia and Animation.
                         </p>
                         <ul class="mt-3 d-none">
                             <li>5 years of Experience In ISO Certification</li>
@@ -46,11 +49,14 @@ function MDDA() {
                             <li>No Hidden Costs</li>
                         </ul>
                     </div>
-                    <div class="col-lg-6 mdda-image">
-                        <img src="/assets/images/mdda_about.png" alt="cartoon"/>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="text-center px-4 mdda-image">
+                        <img src="/assets/images/mdda_about.png" alt="cartoon" class="img-fluid" />
                     </div>
                 </div>
             </div>
+        </div>
         </section>
         <section className="mdda-landing-section">
             <div className="container">
