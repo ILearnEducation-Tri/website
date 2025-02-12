@@ -3,6 +3,7 @@ import Footer from '../../components/Footer/Footer';
 import Whatsapp from '../../components/Footer/Whatsapp';
 import { SubNavbar } from '../../components/Navbar/SubNavbar';
 import './DDM.css';
+import SoftwareList from '../../components/SoftwareList/Software';
 
 const CourseSection = ({ title, items }) => (
     <div className="mb-4 uiux-course-content">
@@ -123,6 +124,7 @@ return (
                 </div>
             </div>
         </div>
+        <SoftwareList/>
         <Footer/>
         <Whatsapp/>
     </div>

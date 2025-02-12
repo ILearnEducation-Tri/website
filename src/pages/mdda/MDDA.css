@@ -164,10 +164,6 @@
     background-color: transparent;
 }
 
-.mdda-icons-section {
-    background-color: #f8f9fa;
-}
-
 @keyframes dropDown {
     0% {
         transform: translateY(-100%);

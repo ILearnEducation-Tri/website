@@ -3,6 +3,7 @@ import Footer from '../../components/Footer/Footer'
 import Whatsapp from '../../components/Footer/Whatsapp'
 import { SubNavbar } from '../../components/Navbar/SubNavbar';
 import './DA.css'
+import SoftwareList from '../../components/SoftwareList/Software';
 
 function DA() {
     useEffect(() => {
@@ -111,6 +112,7 @@ function DA() {
                 </div>
             </div>
         </section>
+        <SoftwareList/>
         <Footer/>
         <Whatsapp/>
     </div>

@@ -3,6 +3,7 @@ import Footer from '../../components/Footer/Footer';
 import Whatsapp from '../../components/Footer/Whatsapp';
 import { SubNavbar } from '../../components/Navbar/SubNavbar';
 import './VFX.css'
+import SoftwareList from '../../components/SoftwareList/Software';
 
 function VFX() {
     useEffect(() => {
@@ -117,6 +118,7 @@ function VFX() {
                 </div>
             </div>
         </section>
+        <SoftwareList/>
         <Footer />
         <Whatsapp />
     </div>

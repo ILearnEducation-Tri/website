@@ -1,4 +1,10 @@
-.icon {
+.icons-section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+.icons-section .icon {
     width: 50px;
     height: 50px;
     object-fit: contain;

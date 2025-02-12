@@ -3,6 +3,7 @@ import './MDDA.css'
 import Footer from '../../components/Footer/Footer';
 import Whatsapp from '../../components/Footer/Whatsapp';
 import { SubNavbar } from '../../components/Navbar/SubNavbar';
+import SoftwareList from '../../components/SoftwareList/Software';
 
 function MDDA() {
     useEffect(() => {
@@ -194,6 +195,7 @@ function MDDA() {
                 </div>
             </div>
         </section>
+        <SoftwareList/>        
         <Footer/>
         <Whatsapp/>
     </div>

@@ -3,6 +3,7 @@ import './GWE.css'
 import Footer from '../../components/Footer/Footer'
 import Whatsapp from '../../components/Footer/Whatsapp'
 import { SubNavbar } from '../../components/Navbar/SubNavbar';
+import SoftwareList from '../../components/SoftwareList/Software';
 
 function GWE() {
     useEffect(() => {
@@ -134,6 +135,7 @@ function GWE() {
                 </div>
             </div>
         </section>
+        <SoftwareList/>
         <Footer/>
         <Whatsapp/>
     </div>

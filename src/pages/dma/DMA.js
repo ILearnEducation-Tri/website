@@ -3,6 +3,7 @@ import Footer from '../../components/Footer/Footer';
 import Whatsapp from '../../components/Footer/Whatsapp';
 import { SubNavbar } from '../../components/Navbar/SubNavbar';
 import './DMA.css'
+import SoftwareList from '../../components/SoftwareList/Software';
 
 function DMA() {
     useEffect(() => {
@@ -139,6 +140,7 @@ function DMA() {
                 </div>
             </div>
         </section>
+        <SoftwareList/>
         <Footer />
         <Whatsapp />
     </div>
