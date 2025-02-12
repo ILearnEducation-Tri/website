@@ -1,0 +1,22 @@
+.about-content {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .about-image {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .text-animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .image-animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
