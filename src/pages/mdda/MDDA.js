@@ -24,12 +24,12 @@ function MDDA() {
                 </div>
             </div>
         </section>
-        <section class="py-5" id="about">
-        <div class="container">
-            <div class="row gy-4 align-items-center">
-                <div class="col-lg-6 order-lg-1 order-2">
-                    <div class="pe-lg-4">
-                        <p class="mt-4">
+        <section className="py-5" id="about">
+        <div className="container">
+            <div className="row gy-4 align-items-center">
+                <div className="col-lg-6 order-lg-1 order-2">
+                    <div className="pe-lg-4">
+                        <p className="mt-4">
                             This course aims to mentor you in all areas of Design, Animation, Vfx and Editing.
                             It empowers you with multiple skill sets, thus giving you an edge over your peers.
                         </p>
@@ -41,7 +41,7 @@ function MDDA() {
                         <p>
                             The program also covers the development framework of Multimedia and Animation.
                         </p>
-                        <ul class="mt-3 d-none">
+                        <ul className="mt-3 d-none">
                             <li>5 years of Experience In ISO Certification</li>
                             <li>Affordable Certification Packages</li>
                             <li>Expert Guidance</li>
@@ -51,9 +51,9 @@ function MDDA() {
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-2 order-1">
-                    <div class="text-center px-4 mdda-image">
-                        <img src="/assets/images/mdda_about.png" alt="cartoon" class="img-fluid" />
+                <div className="col-lg-6 order-lg-2 order-1">
+                    <div className="text-center px-4 mdda-image">
+                        <img src="/assets/images/mdda_about.png" alt="cartoon" className="img-fluid" />
                     </div>
                 </div>
             </div>
@@ -76,11 +76,11 @@ function MDDA() {
             </div>
         </section>
         <section className="mdda-course-section">
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     <h1>Course Outline</h1>
-                    <div class="nav-tabs"/>
-                    <div class="col-lg-6 mdda-course-content">
+                    <div className="nav-tabs"/>
+                    <div className="col-lg-6 mdda-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}         
                         <h2>Module 1 :</h2>
                         <h3>Graphic Design</h3>
@@ -100,7 +100,7 @@ function MDDA() {
                             <li>Higher-End Designing in Ads</li>
                             <li>Digital Painting & Matte Painting</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Lightroom
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
@@ -116,7 +116,7 @@ function MDDA() {
                             <li>2D Animation Movie Creation</li>
                             <li>Story Board</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Adobe Character Animator, Adobe Animate
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
@@ -130,12 +130,12 @@ function MDDA() {
                             <li>Special Effects & Dynamics</li>
                             <li>Rendering</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Autodesk Maya, Blender
                         </div>
                     </div>
 
-                    <div class="col-lg-6 mdda-course-content">
+                    <div className="col-lg-6 mdda-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}
                         <h3>VFX Ultimate</h3>
                         <ul>
@@ -151,7 +151,7 @@ function MDDA() {
                             <li>Working with External Plugins</li>
                             <li>Video Editing</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Adobe After Effects, Cinema 4D, Nuke, Blackmagic Feature
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
@@ -166,11 +166,11 @@ function MDDA() {
                             <li>Rendering</li>
                             <li>Titling with Edit Suite</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Adobe Premiere Pro, Adobe Audition
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
-                        <div class="mdda-course-career">
+                        <div className="mdda-course-career">
                             <h2>CAREER PATH</h2>
                             <ul>
                                 <li>VFX Artist</li>

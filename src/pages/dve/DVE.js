@@ -24,11 +24,11 @@ function DVE() {
           </div>
         </div>
       </section>
-      <section class="mdgd-section" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 mdda-content">
-                        <p class="mt-4">
+      <section className="mdgd-section" id="about">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-lg-6 mdda-content">
+                        <p className="mt-4">
                             The Diploma in Video Editing program provides students with essential skills and knowledge for a successful 
                             career in video editing. Participants will learn the entire video editing process, from initial concepts to 
                             final production, and master techniques in post-production, transitions, special effects, and motion graphics. 
@@ -38,7 +38,7 @@ function DVE() {
                             and motion graphic designer.
                         </p>
                     </div>
-                    <div class="col-lg-6 d-flex justify-content-center align-items-center mdgd-image">
+                    <div className="col-lg-6 d-flex justify-content-center align-items-center mdgd-image">
                         <img src="/assets/images/dve-aboute.png" alt="Game Development"/>
                     </div>
                 </div>

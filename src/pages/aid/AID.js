@@ -98,8 +98,8 @@ function AID() {
                           </p>
                       </div>
                   </div>
-                  <div class="col-lg-6 col-md-10 d-lg-flex justify-content-center aid-image d-none d-lg-flex">
-                      <img src="/assets/images/aid-abote.png" alt="Computer" class="img-fluid" />
+                  <div className="col-lg-6 col-md-10 d-lg-flex justify-content-center aid-image d-none d-lg-flex">
+                      <img src="/assets/images/aid-abote.png" alt="Computer" className="img-fluid" />
                   </div>
               </div>
           </div>

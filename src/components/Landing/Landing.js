@@ -25,11 +25,11 @@ function Landing() {
                             <br/><span className='enquiry-form'>How Can We Help You ?</span>
                         </h2>
                         <form action="https://formsubmit.co/ilearncomputereducation@gmail.com" method="POST">
-                            <input type="text" className="form-control" id="name" name="name" placeholder="Your Name" required/>
-                            <input type="email" className="form-control" id="email" name="email" placeholder="Your Email" required/>
-                            <input type="tel" className="form-control" id="phone" name="phone" placeholder="Your Contact No" required/>
-                            <input type="text" className="form-control" id="Education" name="Education" placeholder="Your Education" required/>
-                            <textarea className="form-control" id="message" name="msg" rows="4" placeholder="Your Message"></textarea>
+                            <input type="text" className="form-control" id="name" name="name" placeholder="Your Name" required autoComplete="name"/>
+                            <input type="email" className="form-control" id="email" name="email" placeholder="Your Email" required autoComplete="email"/>
+                            <input type="tel" className="form-control" id="phone" name="phone" placeholder="Your Contact No" required autoComplete="tel"/>
+                            <input type="text" className="form-control" id="Education" name="Education" placeholder="Your Education" required autoComplete="education"/>
+                            <textarea className="form-control" id="message" name="msg" rows="4" placeholder="Your Message" autoComplete="off"></textarea>
                             <button type="submit" name="submit" className="btn btn-custom w-100">Submit</button>
                         </form>
                     </div>

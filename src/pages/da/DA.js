@@ -24,11 +24,11 @@ function DA() {
           </div>
         </div>
         </section>
-        <section class="da-section" id="about">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-6 col-md-10 text-center text-lg-start mdda-content">
-                        <p class="mt-4">
+        <section className="da-section" id="about">
+            <div className="container">
+                <div className="row align-items-center justify-content-center">
+                    <div className="col-lg-6 col-md-10 text-center text-lg-start mdda-content">
+                        <p className="mt-4">
                             One can hold control on animation world moving perfect hand on, concepts, principles by animation & software’s.
                         </p>
                         <p>
@@ -36,18 +36,18 @@ function DA() {
                             to be specialized training in Character animation, Modeling, Walk through animation etc.
                         </p>
                     </div>
-                    <div class="col-lg-6 col-md-10 d-flex justify-content-center da-image">
-                        <img src="/assets/images/da-about.png" alt="cartoon" class="img-fluid" />
+                    <div className="col-lg-6 col-md-10 d-flex justify-content-center da-image">
+                        <img src="/assets/images/da-about.png" alt="cartoon" className="img-fluid" />
                     </div>
                 </div>
             </div>
         </section>
         <section className="mdda-course-section">
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     <h1>Course Outline</h1>
-                    <div class="nav-tabs"/>
-                    <div class="col-lg-6 mdda-course-content">
+                    <div className="nav-tabs"/>
+                    <div className="col-lg-6 mdda-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}         
                         <h2>Module 1 :</h2>
                         <ul>
@@ -61,7 +61,7 @@ function DA() {
                             <li>Scanning & capturing of images</li>
                             <li>Photo Restoration</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Adobe Photoshop, Illustrator
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
@@ -75,12 +75,12 @@ function DA() {
                             <li>Animation for making presentation CDs & Portfolios</li>
                             <li>2D animation movie creation</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Adobe Animate, Adobe Character Animator
                         </div>
                     </div>
 
-                    <div class="col-lg-6 mdda-course-content">
+                    <div className="col-lg-6 mdda-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}
                         <h2>Module 3:</h2>
                         <h3>3D ANIMATION</h3>
@@ -93,11 +93,11 @@ function DA() {
                             <li>Special effects & Dynamic</li>
                             <li>Rendering</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Autodesk Maya, Arnold Simulation
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
-                        <div class="mdda-course-career">
+                        <div className="mdda-course-career">
                             <h2>CAREER PATH</h2>
                             <ul>
                                 <li>Layout Artist</li>

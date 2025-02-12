@@ -26,14 +26,14 @@ const stages = [
   
 function Process() {
   return (
-    <section class="process-section" id="process">
-        <div class="container">
+    <section className="process-section" id="process">
+        <div className="container">
             <h2>Our Process</h2>
-            <div class="row g-4">
+            <div className="row g-4">
                 {stages.map((card, index)=>(
-                    <div class="col-lg-3 col-md-6" key={index}>
-                        <div class="process-card">
-                            <i class={`fas ${card.icon}`}></i>
+                    <div className="col-lg-3 col-md-6" key={index}>
+                        <div className="process-card">
+                            <i className={`fas ${card.icon}`}></i>
                             <h5>Step {index + 1}</h5>
                             <h5>{card.title}</h5>
                             <p>{card.description}</p>

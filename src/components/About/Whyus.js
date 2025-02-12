@@ -30,23 +30,23 @@ const cardContent = [
 function Whyus() {
   return (
     <div>
-    <section class="why-choose-us">
-        <div class="container">
+    <section className="why-choose-us">
+        <div className="container">
             <h2>Why Choose Us?</h2>
-            <div class="row ">
+            <div className="row ">
                 {cardContent.map((card, index)=>(
-                    <div key={index} class="col-lg-3 col-md-6 mb-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                <div class="icon-bg water-wave">
-                                        <div class="background-animation"></div>
-                                        <i class="fa fa-star icon"></i>
+                    <div key={index} className="col-lg-3 col-md-6 mb-4">
+                        <div className="flip-card">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                <div className="icon-bg water-wave">
+                                        <div className="background-animation"></div>
+                                        <i className="fa fa-star icon"></i>
                                     </div>
-                                    <h4 class="mb-4">{card.title}</h4>
-                                    <p class="whyus_content">{card.content}</p>
+                                    <h4 className="mb-4">{card.title}</h4>
+                                    <p className="whyus_content">{card.content}</p>
                                 </div>
-                                <div class="flip-card-back">
+                                <div className="flip-card-back">
                                     <p>{card.description}</p>
                                 </div>
                             </div>
@@ -56,10 +56,10 @@ function Whyus() {
             </div>
         </div>
     </section>
-    <section class="why-choose-us">
-        <div class="cartoon_container">
-            <img class="cartoon" src="/assets/images/cartoon.png" alt="Cartoon"/>
-            <img class="Cartoon_text" src="/assets/images/cartoon_text.png" alt="cartoon text"/>
+    <section className="why-choose-us">
+        <div className="cartoon_container">
+            <img className="cartoon" src="/assets/images/cartoon.png" alt="Cartoon"/>
+            <img className="Cartoon_text" src="/assets/images/cartoon_text.png" alt="cartoon text"/>
         </div>
     </section>
     </div>

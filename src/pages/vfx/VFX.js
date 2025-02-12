@@ -24,11 +24,11 @@ function VFX() {
                 </div>
             </div>
         </section>
-        <section class="dma-section" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12 mdma-content text-center text-lg-start">
-                        <p class="mt-4">
+        <section className="dma-section" id="about">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-lg-6 col-md-12 mdma-content text-center text-lg-start">
+                        <p className="mt-4">
                             This program is specialized in audio, video editing and post production works.                            
                         </p>
                         <p>                            
@@ -36,18 +36,18 @@ function VFX() {
                             with effective background, sounds and music, adding dynamic special effects
                         </p>
                     </div>
-                    <div class="col-lg-6 d-flex justify-content-center align-items-center vfx-image">
+                    <div className="col-lg-6 d-flex justify-content-center align-items-center vfx-image">
                         <img src="/assets/images/vfx-about.png" alt="Game Development"/>
                     </div>
                 </div>
             </div>
         </section>
         <section className="mdma-course-section">
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     <h1>Course Outline</h1>
-                    <div class="nav-tabs"/>
-                    <div class="col-lg-6 mdda-course-content">
+                    <div className="nav-tabs"/>
+                    <div className="col-lg-6 mdda-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}
                         <ul>
                             <li>Concepts of editing & Post production</li>
@@ -62,7 +62,7 @@ function VFX() {
                             <li>Motion Graphics Rotoscopy</li>
                             <li>Parallax Photography Intro</li>
                         </ul>
-                        <div class="mdma-course-software">
+                        <div className="mdma-course-software">
                             <strong>Software:</strong> 
                                 Adobe Photoshop, Adobe premiere,
                                 Adobe After Effects, Adobe Flash
@@ -70,7 +70,7 @@ function VFX() {
                         </div>                        
                     </div>
 
-                    <div class="col-lg-6 mdma-course-content">
+                    <div className="col-lg-6 mdma-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}
                         <h3>PROJECT Compositing & Visual effects</h3>
                         <ul>
@@ -81,30 +81,30 @@ function VFX() {
                             <li>Video shooting and editing</li>
                             <li>(Preproduction, Production and Post Production)</li>
                         </ul>
-                        <div class="mdma-course-software">
+                        <div className="mdma-course-software">
                             <strong>Software:</strong> Adobe Character Animator, Adobe Animate
                         </div>
                     </div>
-                    <div class="container mt-5">
-                        <div class="row justify-content-center">
-                            <div class="col-md-8">
-                                <div class="mdgd-course-career text-center">
+                    <div className="container mt-5">
+                        <div className="row justify-content-center">
+                            <div className="col-md-8">
+                                <div className="mdgd-course-career text-center">
                                     <h2>CAREER PATH</h2>
-                                    <div class="row">
-                                        <div class="col-md-4">
+                                    <div className="row">
+                                        <div className="col-md-4">
                                             <ul>
                                                 <li>Post production Specialist</li>
                                                 <li>VFX Specialist</li>
                                                 <li>SFX Specialist</li>
                                             </ul>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div className="col-md-4">
                                             <ul>
                                                 <li>2D Compositor</li>
                                                 <li>3D Compositor</li>
                                             </ul>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div className="col-md-4">
                                             <ul>
                                                 <li>Editor Movie Marketing Artist</li>
                                                 <li>Motion Graphic Designer</li>

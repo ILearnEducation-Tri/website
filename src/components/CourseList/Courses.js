@@ -27,23 +27,23 @@ const courses = [
 
 function Courses() {
   return (
-    <section class="service-section" id="services">
-        <div class="container">
+    <section className="service-section" id="services">
+        <div className="container">
             <h2>Course We Provide</h2>
-            <div class="nav-tabs"/>
-            <div class="tab-content mt-4" id="serviceTabContent">
-                <div class="tab-pane fade show active" id="iso" role="tabpanel" aria-labelledby="iso-tab">
-                    <div class="row">
+            <div className="nav-tabs"/>
+            <div className="tab-content mt-4" id="serviceTabContent">
+                <div className="tab-pane fade show active" id="iso" role="tabpanel" aria-labelledby="iso-tab">
+                    <div className="row">
                         {courses.map((card,index)=>(
-                            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0" key={index}>
-                                <div class="bg-white py-5 px-4 text-center box-shadow transition hover-bg-dark feature-box">
-                                    <div class="icon-bg water-wave">
-                                        <div class="background-animation"></div>
-                                        <img src="./logo192.png" alt="Icon" class="icon" style={{backgroundSize : "cover", width: "90%"}}/>
+                            <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0" key={index}>
+                                <div className="bg-white py-5 px-4 text-center box-shadow transition hover-bg-dark feature-box">
+                                    <div className="icon-bg water-wave">
+                                        <div className="background-animation"></div>
+                                        <img src="./logo192.png" alt="Icon" className="icon" style={{backgroundSize : "cover", width: "90%"}}/>
                                     </div>
-                                    <h4 class="mb-4 oneway">{card.shortForm}</h4>
+                                    <h4 className="mb-4 oneway">{card.shortForm}</h4>
                                     <p>{card.title}</p>
-                                    <Link class="course_btn" to={card.shortForm.toLowerCase()}>Read More</Link>
+                                    <Link className="course_btn" to={card.shortForm.toLowerCase()}>Read More</Link>
                                 </div>
                             </div>
                         ))}

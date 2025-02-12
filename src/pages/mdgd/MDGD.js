@@ -24,11 +24,11 @@ function MDGD() {
                 </div>
             </div>
         </section>
-        <section class="mdgd-section" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 mdda-content">
-                        <p class="mt-4">
+        <section className="mdgd-section" id="about">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-lg-6 mdda-content">
+                        <p className="mt-4">
                             Master Diploma in Game Design is an intensive program designed to equip students with 
                             essential skills and knowledge required for successful career in game designing industry.
                         </p>
@@ -37,18 +37,18 @@ function MDGD() {
                             concept art to final game production.
                         </p>
                     </div>
-                    <div class="col-lg-6 d-flex justify-content-center align-items-center mdgd-image">
+                    <div className="col-lg-6 d-flex justify-content-center align-items-center mdgd-image">
                         <img src="/assets/images/mdgd-cartoon.png" alt="Game Development"/>
                     </div>
                 </div>
             </div>
         </section>
         <section className="mdda-course-section">
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     <h1>Course Outline</h1>
-                    <div class="nav-tabs"/>
-                    <div class="col-lg-6 mdda-course-content">
+                    <div className="nav-tabs"/>
+                    <div className="col-lg-6 mdda-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}         
                         <h2>Module 1 :</h2>
                         <h3>Fine Arts</h3>
@@ -61,7 +61,7 @@ function MDGD() {
                             <li>Storytelling, Script writing, Story board and Animatics</li>
                             <li>Pre-production Design Portfolio</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Lightroom
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
@@ -74,12 +74,12 @@ function MDGD() {
                             <li>Game Art using Photoshop</li>
                             <li>Vector illustrations for Games</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Adobe Photoshop, Adobe Illustrator
                         </div>                        
                     </div>
 
-                    <div class="col-lg-6 mdda-course-content">
+                    <div className="col-lg-6 mdda-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}
                         <h2>Module 3:</h2>
                         <h3>3D Art & Design</h3>
@@ -91,7 +91,7 @@ function MDGD() {
                             <li>Animation in 3D tools</li>
                             <li>Rendering with 3D tools</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Autodesk Maya, Blender, Substance Painter
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
@@ -104,31 +104,31 @@ function MDGD() {
                             <li>Rendering with Unreal</li>
                             <li>Portfolio making</li>
                         </ul>
-                        <div class="mdda-course-software">
+                        <div className="mdda-course-software">
                             <strong>Software:</strong> Unreal
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
                     </div>
-                    <div class="container mt-5">
-                        <div class="row justify-content-center">
-                            <div class="col-md-8">
-                                <div class="mdgd-course-career text-center">
+                    <div className="container mt-5">
+                        <div className="row justify-content-center">
+                            <div className="col-md-8">
+                                <div className="mdgd-course-career text-center">
                                     <h2>CAREER PATH</h2>
-                                    <div class="row">
-                                        <div class="col-md-4">
+                                    <div className="row">
+                                        <div className="col-md-4">
                                             <ul>
                                                 <li>Game Designer</li>
                                                 <li>3D Game Artist</li>
                                                 <li>3D Asset Artist</li>
                                             </ul>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div className="col-md-4">
                                             <ul>
                                                 <li>Texturing Artist</li>
                                                 <li>Environment Artist</li>
                                             </ul>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div className="col-md-4">
                                             <ul>
                                                 <li>3D Animator</li>
                                                 <li>3D Generalist</li>

@@ -2,12 +2,12 @@ import React from 'react'
 
 function Aboute() {
   return (
-    <section class="about-section" id="about">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 about-content">
+    <section className="about-section" id="about">
+        <div className="container">
+            <div className="row align-items-center">
+                <div className="col-lg-6 about-content">
                     <h1>Why Us</h1>
-                    <p class="mt-4">
+                    <p className="mt-4">
                         I LEARN train and groom students to get employed with much advanced
                         skills required to work anywhere in the world.
                     </p>
@@ -23,7 +23,7 @@ function Aboute() {
                         in the field of teaching and learning. All these factors would help us to achieve
                         "100% meaningful skilling and employability training, which is our ultimate goal."
                     </p>
-                    <ul class="mt-3 d-none">
+                    <ul className="mt-3 d-none">
                         <li>5 years of Experience In ISO Certification</li>
                         <li>Affordable Certification Packages</li>
                         <li>Expert Guidance</li>
@@ -32,7 +32,7 @@ function Aboute() {
                         <li>No Hidden Costs</li>
                     </ul>
                 </div>
-                <div class="col-lg-6 about-image">
+                <div className="col-lg-6 about-image">
                     <img src="/assets/images/about_us.png" alt="About Us"/>
                 </div>
             </div>

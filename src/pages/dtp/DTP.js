@@ -96,8 +96,8 @@ const DTP = () => {
               </p>
             </div>
           </div>
-          <div class="col-lg-6 col-md-10 d-lg-flex justify-content-center dtp-image d-none d-lg-flex">
-            <img src="/assets/images/dtp-aboute.png" alt="Computer" class="img-fluid" />
+          <div className="col-lg-6 col-md-10 d-lg-flex justify-content-center dtp-image d-none d-lg-flex">
+            <img src="/assets/images/dtp-aboute.png" alt="Computer" className="img-fluid" />
           </div>
         </div>
       </div>
@@ -106,8 +106,8 @@ const DTP = () => {
       <div className="container pt-5">
         <div className="row">
           {/* Left Column */}
-          <div class="col-lg-4 pt-5">
-              <img src="/assets/images/dtp-out.png" alt="Computer" class="img-fluid" />
+          <div className="col-lg-4 pt-5">
+              <img src="/assets/images/dtp-out.png" alt="Computer" className="img-fluid" />
           </div>
           {/* Right Column */}
           <div className="col-lg-8">

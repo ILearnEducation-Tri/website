@@ -139,8 +139,8 @@ function PDDM() {
               </p>
             </div>
           </div>
-          <div class="col-lg-6 col-md-10 d-lg-flex justify-content-center pddm-image d-none d-lg-flex">
-            <img src="/assets/images/pddm-aboute.png" alt="Computer" class="img-fluid" />
+          <div className="col-lg-6 col-md-10 d-lg-flex justify-content-center pddm-image d-none d-lg-flex">
+            <img src="/assets/images/pddm-aboute.png" alt="Computer" className="img-fluid" />
           </div>
         </div>
       </div>

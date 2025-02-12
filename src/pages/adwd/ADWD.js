@@ -24,11 +24,11 @@ function ADWD() {
           </div>
         </div>
         </section>
-        <section class="dma-section" id="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12 mdma-content text-center text-lg-start">
-                        <p class="mt-4">
+        <section className="dma-section" id="about">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-lg-6 col-md-12 mdma-content text-center text-lg-start">
+                        <p className="mt-4">
                             This is a course with trio modules of web designing, multimedia authoring, and hardcore web programming. 
                         </p>
                         <p>                            
@@ -36,18 +36,18 @@ function ADWD() {
                             technology and development careers
                         </p>
                     </div>
-                    <div class="col-lg-6 col-md-10 d-flex justify-content-center adwd-image">
-                        <img src="/assets/images/web_designing.jpg" alt="Computer" class="img-fluid" />
+                    <div className="col-lg-6 col-md-10 d-flex justify-content-center adwd-image">
+                        <img src="/assets/images/web_designing.jpg" alt="Computer" className="img-fluid" />
                     </div>
                 </div>
             </div>
         </section>
         <section className="mdma-course-section">
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     <h1>Course Outline</h1>
-                    <div class="nav-tabs"/>
-                    <div class="col-lg-6 mdda-course-content">
+                    <div className="nav-tabs"/>
+                    <div className="col-lg-6 mdda-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}
                         <h2>Module 1 :</h2>
                         <h3>WEB PAGE DESIGNING</h3>
@@ -65,7 +65,7 @@ function ADWD() {
                             <li>Web Banner Designing</li>
                             <li>Adapting Web Page Layout for Tablets, Mobile Phones & Desktop</li>
                         </ul>
-                        <div class="mdma-course-software">
+                        <div className="mdma-course-software">
                             <strong>Software:</strong> Adobe Photoshop
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
@@ -78,12 +78,12 @@ function ADWD() {
                             <li>Streaming video & audio</li>
                             <li>Web hosting & maintenance</li>
                         </ul>
-                        <div class="mdma-course-software">
+                        <div className="mdma-course-software">
                             <strong>Software:</strong> Adobe Dreamweaver, WordPress, Visual Studio, Sublime Text, HTML 5, CSS 3 Responsive Web Design, Bootstrap, JavaScript
                         </div>                     
                     </div>
 
-                    <div class="col-lg-6 mdma-course-content">
+                    <div className="col-lg-6 mdma-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}
                         <h2>Module 2 :</h2>
                         <h3>WEB ANIMATION</h3>
@@ -100,10 +100,10 @@ function ADWD() {
                             <li>Publishing Animate content</li>
                             <li>Exporting from Animate</li>
                         </ul>
-                        <div class="mdma-course-software">
+                        <div className="mdma-course-software">
                             <strong>Software:</strong> Adobe Animate
                         </div>
-                        <div class="mdma-course-career">
+                        <div className="mdma-course-career">
                             <h2 className='text-center'>CAREER PATH</h2>
                             <ul className='text-left'>
                                 <li>Web Designer</li>

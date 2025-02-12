@@ -24,12 +24,12 @@ function MDMA() {
                 </div>
             </div>
         </section>
-        <section class="py-5" id="about">
-        <div class="container">
-            <div class="row gy-4 align-items-center">
-                <div class="col-lg-6 order-lg-1 order-2">
-                    <div class="pe-lg-4">
-                    <p class="mt-4">
+        <section className="py-5" id="about">
+        <div className="container">
+            <div className="row gy-4 align-items-center">
+                <div className="col-lg-6 order-lg-1 order-2">
+                    <div className="pe-lg-4">
+                    <p className="mt-4">
                             The Master Animation program provides a balance of creative and technical skills necessary for success
                             in multimedia production.
                             Students will gain a strong foundation in both traditional and computer-based forms of animation. 
@@ -41,20 +41,20 @@ function MDMA() {
                         <p>This program will give a conceptual understanding of different forms of multimedia and animation.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-2 order-1">
-                    <div class="text-center px-4 mdma-image">
-                        <img src="/assets/images/mdma-cartoon.png" alt="cartoon" class="img-fluid" />
+                <div className="col-lg-6 order-lg-2 order-1">
+                    <div className="text-center px-4 mdma-image">
+                        <img src="/assets/images/mdma-cartoon.png" alt="cartoon" className="img-fluid" />
                     </div>
                 </div>
             </div>
         </div>
         </section>
         <section className="mdma-course-section">
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     <h1>Course Outline</h1>
-                    <div class="nav-tabs"/>
-                    <div class="col-lg-6 mdma-course-content">
+                    <div className="nav-tabs"/>
+                    <div className="col-lg-6 mdma-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}
                         <h2>Module 1 :</h2>
                         <h3>Graphic Design</h3>
@@ -73,7 +73,7 @@ function MDMA() {
                             <li>Photo Restoration & Product Modeling</li>
                             <li>Higher-End Designing in Ads</li>
                         </ul>
-                        <div class="mdma-course-software">
+                        <div className="mdma-course-software">
                             <strong>Software:</strong> Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Lightroom
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
@@ -88,7 +88,7 @@ function MDMA() {
                             <li>Presentations CDs & Portfolios</li>
                             <li>2D Animation Movie Creation</li>
                         </ul>
-                        <div class="mdma-course-software">
+                        <div className="mdma-course-software">
                             <strong>Software:</strong> Adobe Character Animator, Adobe Animate
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
@@ -103,12 +103,12 @@ function MDMA() {
                             <li>Special Effects & Dynamics</li>
                             <li>Rendering</li>
                         </ul>
-                        <div class="mdma-course-software">
+                        <div className="mdma-course-software">
                             <strong>Software:</strong> Autodesk Maya, Blender, Arnold Simulation
                         </div>
                     </div>
 
-                    <div class="col-lg-6 mdma-course-content">
+                    <div className="col-lg-6 mdma-course-content">
                         {/* ---------------------------------------------------------------------------------------------- */}
                         <h3>VFX Ultimate</h3>
                         <ul>
@@ -122,7 +122,7 @@ function MDMA() {
                             <li>Matte Painting, Crowd Simulation</li>
                             <li>Working with Arnold Renderer</li>
                         </ul>
-                        <div class="mdma-course-software">
+                        <div className="mdma-course-software">
                             <strong>Software:</strong> Arnold Simulation, Adobe After Effects, Cinema 4D, Nuke
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
@@ -137,11 +137,11 @@ function MDMA() {
                             <li>Rendering</li>
                             <li>Titling with Edit Suite</li>
                         </ul>
-                        <div class="mdma-course-software">
+                        <div className="mdma-course-software">
                             <strong>Software:</strong> Adobe Premiere Pro, Adobe Audition
                         </div>
                         {/* ---------------------------------------------------------------------------------------------- */}
-                        <div class="mdma-course-career">
+                        <div className="mdma-course-career">
                             <h2>CAREER PATH</h2>
                             <ul>
                                 <li>VFX Artist & Editor - 2D Animator</li>
