@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from "react";
 import './Whyus.css'
 
 const cardContent = [
@@ -23,48 +23,82 @@ const cardContent = [
       description: 'Our 100% placement assistance program connects you with leading organizations. We strive to ensure you find a job that matches your skills and aspirations, securing a bright future for you.'
     }
   ];
-  
-  
-  
 
+  
 function Whyus() {
-  return (
-    <div>
-    <section className="why-choose-us">
-        <div className="container">
-            <h2>Why Choose Us?</h2>
-            <div className="row ">
-                {cardContent.map((card, index)=>(
-                    <div key={index} className="col-lg-3 col-md-6 mb-4">
-                        <div className="flip-card">
-                            <div className="flip-card-inner">
-                                <div className="flip-card-front">
-                                <div className="icon-bg water-wave">
-                                        <div className="background-animation"></div>
-                                        <i className="fa fa-star icon"></i>
-                                    </div>
-                                    <h4 className="mb-4">{card.title}</h4>
-                                    <p className="whyus_content">{card.content}</p>
-                                </div>
-                                <div className="flip-card-back">
-                                    <p>{card.description}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                ))}                
-            </div>
-        </div>
-    </section>
-    <section className="why-choose-us">
-        <div className="cartoon_container">
-            <img className="cartoon" src="/assets/images/cartoon.png" alt="Cartoon"/>
-            <img className="Cartoon_text" src="/assets/images/cartoon_text.png" alt="cartoon text"/>
-        </div>
-    </section>
-    </div>
 
-  )
+  const [isVisible, setIsVisible] = useState(false);
+  const cartoonRef = useRef(null);
+
+  useEffect(() => {
+    const element = cartoonRef.current; // Store in a local variable
+  
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.5 }
+    );
+  
+    if (element) {
+      observer.observe(element);
+    }
+  
+    return () => {
+      if (element) {
+        observer.unobserve(element);
+      }
+    };
+  }, []);
+  
+
+  return (
+      <div>
+        <section className="why-choose-us">
+          <div className="container">
+            <h2>Why Choose Us?</h2>
+            <div className="row">
+              {cardContent.map((card, index) => (
+                <div key={index} className="col-lg-3 col-md-6 mb-4">
+                  <div className="flip-card">
+                    <div className="flip-card-inner">
+                      <div className="flip-card-front">
+                        <div className="icon-bg water-wave">
+                          <div className="background-animation"></div>
+                          <i className="fa fa-star icon"></i>
+                        </div>
+                        <h4 className="mb-4">{card.title}</h4>
+                        <p className="whyus_content">{card.content}</p>
+                      </div>
+                      <div className="flip-card-back">
+                        <p>{card.description}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+        <section className="why-choose-us">
+          <div className="cartoon_container">
+            <img
+              ref={cartoonRef}
+              className={`cartoon ${isVisible ? "drop-animate" : ""}`}
+              src="/assets/images/cartoon.png"
+              alt="Cartoon"
+            />
+            <img
+              className="Cartoon_text"
+              src="/assets/images/cartoon_text.png"
+              alt="cartoon text"
+            />
+          </div>
+        </section>
+      </div>
+    );
 }
 
-export default Whyus
+export default Whyus;

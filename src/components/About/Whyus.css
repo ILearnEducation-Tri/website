@@ -76,6 +76,7 @@
   .cartoon {
     height: 600px;
     z-index: 2;
+    opacity: 0;
   }
   .Cartoon_text {
     box-sizing: border-box;
@@ -84,8 +85,43 @@
     z-index: 1;
     animation: text-move 15s linear infinite; font-size: 20px;
   }
+  .drop-animate {
+    animation: drop 1.5s ease-in-out forwards, bounce 1.5s ease-in-out infinite 1.5s;
+  }
+
   @keyframes text-move 
   { 
       0% { right: -240%; } 
       100% { right: 100%; } 
   }
+
+  @keyframes drop {
+    0% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+    40% {
+        transform: translateY(10px);
+        opacity: 1;
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+    80% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+  }
+
